@@ -10,7 +10,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 {
 /* If tree is NULL, it is full */
 if (tree == NULL)
-return (1);
+return (0);
 
 /* If the current node has 0 children, it is full */
 if (tree->left == NULL && tree->right == NULL)
